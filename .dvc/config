@@ -1,0 +1,6 @@
+[core]
+    remote = fuentelocal
+['remote "aws-remote"']
+    url = s3://evercontreras-dvcstore
+['remote "fuentelocal"']
+    url = /tmp/dvcstore
